@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bigbox {
+  display: flex;
+}
+.image {
+  position: relative;
+}
+.box {
+  display: flex;
+  position: absolute;
+  background-color: #fff;
+  top: 0px;
+  left: 586px;
+  height: 708px;
+  width: 581px;
+  border-radius: 22px;
+}
+.box img {
+  position: relative;
+  left: 360px;
+  height: 202.5px;
+  width: 270px;
+  border-radius: 17px;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  display: flex;
+  align-items: center;
+}
+input {
+  width: 420px;
+  height: 70px;
+  outline: 0;
+  border-width: 0 0 2px;
+}
+.paragraph {
+  position: relative;
+  left: 900px;
+  top: -170px;
+  color: #003d61;
+  font-size: 16px;
+}
+a {
+  color: #ed2980;
+}
+.login {
+  position: relative;
+  left: 940px;
+  top: -155px;
+}
+.google {
+  position: relative;
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  left: 900px;
+  top: -130px;
+}
+.logos {
+  display: flex;
+  flex-direction: row;
+}
+.apple {
+  position: relative;
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  left: 971px;
+  top: -130px;
+}
+.telegram {
+  position: relative;
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  left: 1034px;
+  top: -130px;
+}
